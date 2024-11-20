@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.section {
+  background-image: url('./assets/Group 11.png');
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 900px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 541px;
+  height: 527px;
+}
+
+.first-card {
+  width: 447px;
+  height: 187px;
+  position: relative;
+  margin-bottom:70px;
+}
+
+.card-state {
+  position: absolute;
+  bottom: 40px;
+  left: 35px;
+  text-align: center;
+  top: 140px;
+}
+
+.card-number {
+  font-size: 28px;
+  letter-spacing: 5.5px;
+  color: #fff;
+}
+
+.holder-name, .data {
+  color: #fff;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.bottom-text {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.second-card {
+  padding-top: 30px;
+  padding-left: 80px;
+  position: relative;
+}
+
+.cvc {
+  position: absolute;
+  right: 67px;
+  top: 140px;
+  color: #fff;
+}
+
+.right {
+  width: 415px;
+  padding-top: 50px;
+  padding-left: 150px;
+}
+
+.right p {
+  color: #21092F;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 25px 0 9px;
+}
+
+.right input {
+  border-radius: 8px;
+  border: 1px solid #aaa4b0;
+  background: #fff;
+  color: rgba(33, 9, 47, 0.25);
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  padding: 10px;
+  height: 45px;
+  width: 381px;
+}
+
+.expiration-and-cvc {
+  display: flex;
+  gap: 20px;
+  width: 381px;
+}
+
+.exp-date input {
+  width: 80px;
+  height: 45px;
+  margin-right: 10px;
+}
+
+.confirm-button {
+  width: 100%;
+  padding-top: 40px;
+}
+
+button {
+  width: 381px;
+  height: 53px;
+  background-color: #21092F;
+  color: #fff;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
