@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Organisms from './components/organisms/organisms1/Organisms';
+import Organisms from './components/organisms/Organisms1/Organisms';
 
 function App() {
   return (
